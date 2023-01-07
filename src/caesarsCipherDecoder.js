@@ -1,11 +1,14 @@
+import React, {Component} from 'react';
+import Form from 'react-bootstrap/Form';
+
 function rot13(props) {
 
-  const str = props.str;
-  const result = props.result;
-  /*
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    const reg = /[a-zA-z]/;
-    const noReg = /[^a-zA-Z]/;
+  const str = props.str.toUpperCase();
+
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const reg = /[a-zA-z]/;
+  const noReg = /[^a-zA-Z]/;
+  let result = "";
 
     
     for (let i = 0; i < str.length; i++) {
@@ -22,11 +25,15 @@ function rot13(props) {
   
   
     }
-  */
+  
     return (
-      <div style={{width: "100%", height: "200px", backgroundColor: "green", color: "white"}}>
-        <h1>output here: {str} {result}</h1>
-      </div>
+      <Form.Control 
+      readOnly
+      aria-label="Large"
+      aria-describedby="inputGroup-sizing-sm"
+      aria-readonly
+      value={result}
+    /> 
     );
 
   

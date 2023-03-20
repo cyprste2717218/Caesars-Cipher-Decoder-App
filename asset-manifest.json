@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Caesars-Cipher-Decoder-App/static/css/main.e6c13ad2.css",
+    "main.js": "/Caesars-Cipher-Decoder-App/static/js/main.c68eae11.js",
+    "static/js/787.cecaf313.chunk.js": "/Caesars-Cipher-Decoder-App/static/js/787.cecaf313.chunk.js",
+    "index.html": "/Caesars-Cipher-Decoder-App/index.html",
+    "main.e6c13ad2.css.map": "/Caesars-Cipher-Decoder-App/static/css/main.e6c13ad2.css.map",
+    "main.c68eae11.js.map": "/Caesars-Cipher-Decoder-App/static/js/main.c68eae11.js.map",
+    "787.cecaf313.chunk.js.map": "/Caesars-Cipher-Decoder-App/static/js/787.cecaf313.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c68eae11.js"
+  ]
+}

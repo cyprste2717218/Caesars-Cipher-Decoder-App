@@ -10,7 +10,8 @@ function rot13(props) {
   const noReg = /[^a-zA-Z]/;
   let result = "";
 
-    
+
+
     for (let i = 0; i < str.length; i++) {
       if (noReg.test(str[i])) {
         result += str[i];
@@ -24,7 +25,10 @@ function rot13(props) {
   
   
   
-    }
+    
+  }
+
+ 
   
     return (
       <Form.Control 

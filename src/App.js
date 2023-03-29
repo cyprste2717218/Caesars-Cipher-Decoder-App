@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './styles.css';
 import Rot13 from './caesarsCipherDecoder';
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,10 +22,10 @@ export default class App extends Component {
     return (
     
       <div className="App" >
-        <div style={{minHeight: "80vh"}}>
+        <div style={{minHeight: "80vh"}} >
           <Navbar bg="primary" variant="dark">
             <Container>
-              <Navbar.Brand href="#home" style={{fontSize: "1.5em"}}>Caesars Cipher Decoder App</Navbar.Brand>
+              <Navbar.Brand href="#home">Caesars Cipher Decoder App</Navbar.Brand>
             </Container>
           </Navbar>
     
@@ -36,10 +36,10 @@ export default class App extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <p style={{fontSize:"1.3em"}}>The purpose of this app is to decode a Caesars Cipher ROT13 encoded string which you can supply as input below</p>
+                <p>The purpose of this app is to decode a Caesars Cipher ROT13 encoded string which you can supply as input below</p>
                 <br></br>
                 <InputGroup size="lg">
-                  <Form.Label style={{width: "100%", textAlign: "left", fontSize: "1em"}} htmlFor="caesar-cipher-encoded-string-input">Enter String Here:</Form.Label>
+                  <Form.Label style={{width: "100%", textAlign: "left"}} htmlFor="caesar-cipher-encoded-string-input">Enter String Here:</Form.Label>
                   <Form.Control id="textInput"
                     aria-label="Large"
                     aria-describedby="inputGroup-sizing-sm"
@@ -52,7 +52,7 @@ export default class App extends Component {
                 <br></br>
                 <br></br>
                 <InputGroup size="lg">
-                  <Form.Label style={{width: "100%", textAlign: "left", fontSize: "1em"}} htmlFor="caesar-cipher-encoded-string-output">Output:</Form.Label>
+                  <Form.Label style={{width: "100%", textAlign: "left"}} htmlFor="caesar-cipher-encoded-string-output">Output:</Form.Label>
                   <Rot13 str={this.state.val}></Rot13>
                 </InputGroup>
                 
@@ -70,10 +70,10 @@ export default class App extends Component {
         </div>
 
         <footer>
-          <div id="footer" style={{backgroundColor: "#0D6EFD", minHeight: "20vh", width: "100%",  flexDirection: "column", }} className="d-flex justify-content-space-between">
+          <div className="d-flex justify-content-space-between footer">
             <br></br>
             <br></br>
-            <p style={{color: "#FFFFFF"}}>Developed by <a style={{color: "#FFFFFF"}} href="https://github.com/cyprste2717218">@cyprste2717218</a></p>
+            <p>Developed by <a className="footerTextLink" href="https://github.com/cyprste2717218">@cyprste2717218</a></p>
           </div>
         </footer>
    

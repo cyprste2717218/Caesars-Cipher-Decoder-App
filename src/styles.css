@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.content {
+  min-height: 80vh;
+}
+
+
+
+.footer {
+  color: #fff;
+  background-color: hsl(216, 98%, 52%);
+  min-height: 20vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.footerTextLink {
+  color: #fff;
+}
+
+.footerTextLink:hover {
+  color: hsla(0, 0%, 100%, 0.644);
+}
+
+
+

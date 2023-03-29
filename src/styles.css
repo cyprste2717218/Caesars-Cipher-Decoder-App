@@ -1,6 +1,14 @@
+*:focus {
+  border: 1px solid #000;
+}
+
 .App {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+}
+
+.appFont {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .content {
@@ -20,11 +28,19 @@
 
 .footerTextLink {
   color: #fff;
+  text-decoration: none;
 }
 
 .footerTextLink:hover {
   color: hsla(0, 0%, 100%, 0.644);
+  text-decoration: underline;
 }
+
+.icon:hover {
+  color: hsla(0, 0%, 0%, 0.685);
+}
+
+
 
 
 

@@ -1,6 +1,6 @@
 # Caesars Cipher Decoder App
 
-![Screenshot of Caesar Cipher Decoder App](https://media.licdn.com/dms/image/D4E2DAQGaBIqQEQLcwA/profile-treasury-image-shrink_800_800/0/1700440126293?e=1701046800&v=beta&t=1aIrODWgNZrh2Ctvm8ybxYN8zvbb5F56A_AJRWj3ijQ)
+![Screenshot of Caesar Cipher Decoder App](https://github.com/cyprste2717218/Caesars-Cipher-Decoder-App/blob/main/image/screenshot.png)
 
 
 A React app which decodes a string encoded in the Caesars Cipher ROT13 encoding scheme. 
